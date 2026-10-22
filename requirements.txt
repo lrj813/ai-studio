@@ -1,0 +1,19 @@
+# 后端依赖（阶段 2-1）
+fastapi>=0.115,<1
+uvicorn[standard]>=0.32,<1
+pydantic>=2.9,<3
+python-multipart>=0.0.9
+Pillow>=10.4
+requests>=2.31
+
+# 测试
+pytest>=8
+httpx>=0.27
+
+# 本地推理（真实冒烟前安装；mock 测试不依赖）
+diffusers>=0.31,<1
+transformers>=4.46,<5
+torch>=2.5
+torchvision>=0.20
+accelerate>=1.0
+safetensors>=0.4
